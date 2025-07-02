@@ -1,4 +1,4 @@
-# 9th-ABAW
+# 9th-ABAW Competition
 
 This repository contains the implementation of our models for Valence-Arousal estimation, submitted to the 9th Affective Behavior Analysis in the Wild (ABAW) Challenge.
 We introduce a TAGF (Time-aware Gated Fusion) model that incorporates temporal dynamics into the fusion process to enhance multimodal robustness and stability.
