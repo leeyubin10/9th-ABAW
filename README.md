@@ -4,11 +4,11 @@ This repository contains the implementation of our models for Valence-Arousal es
 We introduce a TAGF (Time-aware Gated Fusion) model that incorporates temporal dynamics into the fusion process to enhance multimodal robustness and stability.
 
 
+
 ## 📦 Code for Preprocessing
 
 The code for preprocessing is provided in the `preprocessing` folder.
 
----
 
 
 ## ⚙️ Specify the Settings
@@ -28,7 +28,6 @@ In `main.py`:
   - Example: `-folds_to_run 0` runs fold 0.  
   - `-folds_to_run 0 1 2` runs fold 0, 1, and 2 in a row.
 
----
 
 
 ## 🚀 Run the Code
@@ -51,8 +50,6 @@ If training stops unexpectedly, resume the latest epoch with:
 python main.py -folds_to_run 0 -emotion "valence" -stamp "cv" -resume 1
 ```
 
----
-
 
 ## 📁 Collect the Result
 
@@ -62,7 +59,6 @@ The results will be saved in your specified -save_path, and will include:
 - trained model state dict and checkpoint
 - predictions on the unseen partition
 
----
 
 
 ## 🙏 Acknowledgements
