@@ -64,4 +64,4 @@ The results will be saved in your specified -save_path, and will include:
 ## 🙏 Acknowledgements
 
 The code for preprocessing and the coding framework for the proposed model is based on
-https://github.com/sucv/ABAW2/tree/main, https://github.com/sucv/ABAW3
+https://github.com/praveena2j/ABAW8/tree/main, https://github.com/sucv/ABAW2/tree/main, https://github.com/sucv/ABAW3
