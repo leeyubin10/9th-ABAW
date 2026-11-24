@@ -113,8 +113,6 @@ class GenericExperiment(GenericImageExperiment):
         self.dataset_info = load_pickle(os.path.join(self.dataset_path, "dataset_info.pkl"))
         self.init_randomness()
         self.data_arranger = self.init_data_arranger()
-        print("till here ok")
-        sys.exit()
         if self.calc_mean_std:
             self.calc_mean_std_fn()
         self.mean_std_dict = load_pickle(os.path.join(self.dataset_path, "mean_std_info.pkl"))
